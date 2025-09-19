@@ -2,5 +2,5 @@
 - [x] Create package.json for dependencies
 - [x] Create api/contact.js for backend API to handle contact form
 - [x] Update index.html script to send POST request to /api/contact
-- [ ] Deploy to Vercel and set environment variables
-- [ ] Test the contact form functionality
+- [x] Deploy to Vercel and set environment variables
+- [x] Test the contact form functionality

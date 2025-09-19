@@ -35,7 +35,8 @@ export default async function handler(req, res) {
   try {
     // Connect to MongoDB Atlas
     if (!mongoose.connections[0].readyState) {
-      await mongoose.connect(process.env.MONGODB_URI);
+    const uri = process.env.MONGODB_URI.replace(/\/test(\?|$)/, '/connections$1');
+    await mongoose.connect(uri);
     }
 
     // Save the contact message
