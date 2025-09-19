@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "Keshav Jindal's Portfolio with backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev",
