@@ -1,6 +1,6 @@
 - [x] Initialize Git repository and push current code to GitHub
-- [ ] Create package.json for dependencies
-- [ ] Create api/contact.js for backend API to handle contact form
-- [ ] Update index.html script to send POST request to /api/contact
+- [x] Create package.json for dependencies
+- [x] Create api/contact.js for backend API to handle contact form
+- [x] Update index.html script to send POST request to /api/contact
 - [ ] Deploy to Vercel and set environment variables
 - [ ] Test the contact form functionality

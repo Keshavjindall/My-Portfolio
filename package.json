@@ -8,6 +8,9 @@
     "build": "echo 'No build step required'",
     "start": "vercel start"
   },
+  "vercel": {
+    "outputDirectory": "public"
+  },
   "dependencies": {
     "mongoose": "^8.0.0"
   },
